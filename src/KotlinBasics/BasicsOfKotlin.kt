@@ -7,4 +7,5 @@ fun main(){
     lateinit means late initialization, means we can initialize it late
     this only works with var and not val due to obvious reasons
      */
+
 }

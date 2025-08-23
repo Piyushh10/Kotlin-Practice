@@ -1,0 +1,15 @@
+package KotlinBasics
+
+fun main(){
+    val byteVal : Byte = 127
+    val shortVal : Short = 32000
+    val intVal : Int = 100000
+    val longVal : Long = 10000000000L
+    println("1. Numeric data types -> Byte: $byteVal, Short: $shortVal, Int: $intVal, Long: $longVal")
+
+    val floatVal : Float = 3.14f
+    val doubleVal : Double = 2.71828
+
+    println("Float: $floatVal, Double: $doubleVal")
+
+}
