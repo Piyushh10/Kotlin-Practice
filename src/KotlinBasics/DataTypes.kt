@@ -1,5 +1,8 @@
 package KotlinBasics
 
+import java.util.*
+import kotlin.reflect.typeOf
+
 fun main(){
     val byteVal : Byte = 127
     val shortVal : Short = 32000
@@ -31,6 +34,16 @@ fun main(){
     var name : String? = null
     println("Value of name variable is: $name")
     name = "hello"
+
+
+    // Standard input in Kotlin
+//    var name1 = readln()
+//    println(name1)
+//
+//    val sc = Scanner(System.`in`)
+//    val a = sc.nextInt()
+//    val b = sc.nextLine()
+
 
 
 
