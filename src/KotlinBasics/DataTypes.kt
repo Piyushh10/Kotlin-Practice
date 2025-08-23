@@ -12,4 +12,12 @@ fun main(){
 
     println("Float: $floatVal, Double: $doubleVal")
 
+    val charVal : Char = 'a'
+    val stringVal : String = "A for apple"
+
+    println("2. Character & String data types -> Char: $charVal, String: $stringVal")
+
+
+
 }
+
