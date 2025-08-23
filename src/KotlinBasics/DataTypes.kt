@@ -17,6 +17,21 @@ fun main(){
 
     println("2. Character & String data types -> Char: $charVal, String: $stringVal")
 
+    val booleanVal : Boolean = true
+
+    val nums : Array<Int> = arrayOf(1,2,3,4)
+    val mixedArray = arrayOf("Hello", 6, 9, 'P', 3.14)
+
+    println("First number: ${nums[0]}, Mixed Array: ${mixedArray.joinToString()}")
+
+    /*
+    there are nullable data types in kotlin
+    that can store null inside them, use '?' to add nullability
+     */
+    var name : String? = null
+    println("Value of name variable is: $name")
+    name = "hello"
+
 
 
 }
