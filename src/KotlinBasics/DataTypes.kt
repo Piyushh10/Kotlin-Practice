@@ -61,6 +61,18 @@ fun main(){
 
      */
 
+    val fruits = mutableListOf("Apple", "Banana", "Cherry", "Apple", "Orange")
+    println(fruits)
+    println(fruits.size)
+    println(fruits[0])
+
+    val map = mutableMapOf("One" to 1, "Two" to 2, "Three" to 3)
+    println(map)
+    println(map["One"])
+    println(map.get("One"))
+    map.remove("Two")
+    println(map)
+
 
 
 
