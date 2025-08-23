@@ -44,6 +44,23 @@ fun main(){
 //    val a = sc.nextInt()
 //    val b = sc.nextLine()
 
+    /*
+
+    Collections are used to store groups of data
+    There are 2 types of collections:
+    1. Immutable collections-
+    List<T> : ordered collection with duplicates allowed
+    Set<T> : unordered collection with unique elements
+    Map<K, V> : key value pairs with unique keys only
+
+    2. Mutable collections-
+    MutableList<T>
+    MutableSet<T>
+    MutableMap<K, V>
+    They all have modification functions (All means mutable only)
+
+     */
+
 
 
 
