@@ -45,5 +45,19 @@ fun main(){
     for ((key, value) in map) {
         println("$key = $value")
     }
+
+
+    //while loop
+    var m = 1
+    while(m <11){
+        println(m)
+        m++
+    }
+    do {
+        println(m)
+        m++
+    }while (m<11)
+
+
 }
 
