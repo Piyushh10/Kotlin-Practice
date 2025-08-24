@@ -10,6 +10,13 @@ fun main(){
     println(greetPaaji("Piyushinder", 20))
     println(greetKar("Piyush Shivnani"){name-> "Hello ajeeb function waale $name"})
 
+    val a = Person("abcd")
+    a.introduce()
+
+    val animalObj = Animal()
+    animalObj.sound()
+    val dogObj = Dog()
+    dogObj.sound()
 
 }
 
@@ -51,7 +58,25 @@ fun greetKar(name: String, anotherFunc: (String)->String): String{
     return anotherFunc(name)
 }
 
+//member function- a function inside a class
+class Person(val name: String){
+    fun introduce(){
+        println("Hello, my name is $name")
+    }
+}
 
+//overriding function
+open class Animal {
+    open fun sound() {
+        println("Animal makes a sound")
+    }
+}
+
+class Dog : Animal() {
+    override fun sound() {
+        println("Dog barks")
+    }
+}
 
 
 
