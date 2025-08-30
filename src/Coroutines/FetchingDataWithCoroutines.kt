@@ -26,18 +26,18 @@ deferred holds a result that will be available later
 you must call .await() to retrieve the result.
  */
 fun main()= runBlocking {
-    val launchJob = launch{
-        println("Launch: Start")
-        delay(1000)
-        println("Launch: End")
-    }
-    val asyncJob = async {
-        println("Async: Start")
-        delay(1000)
-        "Async: End"
-    }
-    launchJob.join()
-    println(asyncJob.await())
+//    val launchJob = launch{
+//        println("Launch: Start")
+//        delay(1000)
+//        println("Launch: End")
+//    }
+//    val asyncJob = async {
+//        println("Async: Start")
+//        delay(1000)
+//        "Async: End"
+//    }
+//    launchJob.join()
+//    println(asyncJob.await())
 }
 
 /*

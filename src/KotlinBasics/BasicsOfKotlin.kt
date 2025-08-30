@@ -8,4 +8,14 @@ fun main(){
     this only works with var and not val due to obvious reasons
      */
 
+
+
+
+
+
+
+
+    val name = readln()
+    println(name)
+
 }
