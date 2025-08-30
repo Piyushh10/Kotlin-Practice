@@ -173,8 +173,39 @@ fun main(){
 //    println("Hello I am Piyush".contains("Piyush"))
 
 //    println("Piyush" in "Hello i am Piyush")
-    println("Hello".count())
-    println("Hello".length)
+//    println("Hello".count())
+//    println("Hello".length)
+//    println("Hello".count({it == 'l'}))
+
+
+//    val aa = 2
+//    val bb = 3
+//    val height = if(aa > bb) aa else bb
+//    val taller = if(aa > bb){
+//        println("Choose aa")
+//        aa
+//    }else{
+//        println("Choose bb")
+//        bb
+//    }
+//    println("Taller is $taller")
+
+//    val x = readln().toInt()
+//    when{
+//        x==1 -> println("It is 1")
+//        else -> println("It is not 1")
+//    }
+
+
+    val routineSteps = arrayOf(1,2,3,4,5,6,6)
+
+
+    for ((index, value) in routineSteps.withIndex()) {
+        println("The step at $index is \"$value\"")
+    }
+
+
+
 
 
 } //funmain
