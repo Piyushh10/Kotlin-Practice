@@ -1,3 +1,5 @@
+import kotlin.random.Random
+
 fun main(){
 //    val a = readln()
 //    println(a)
@@ -197,15 +199,21 @@ fun main(){
 //    }
 
 
-    val routineSteps = arrayOf(1,2,3,4,5,6,6)
+//    val routineSteps = arrayOf(1,2,3,4,5,6,6)
+//
+//
+//    for ((index, value) in routineSteps.withIndex()) {
+//        println("The step at $index is \"$value\"")
+//    }
 
 
-    for ((index, value) in routineSteps.withIndex()) {
-        println("The step at $index is \"$value\"")
-    }
 
-
-
+    var roll = 0
+    do{
+        roll = Random.nextInt(1, 7)
+        println(roll)
+    }while (roll != 6)
+    println("Got a 6! Game over")
 
 
 } //funmain
@@ -216,9 +224,9 @@ fun printKaro(a: Int, b: Int){
 
 open class Shape
 
-class Rectangle(val height: Double, val length: Double): Shape(){
-    var perimeter = (height + length) * 2
-}
+//class Rectangle(val height: Double, val length: Double): Shape(){
+//    var perimeter = (height + length) * 2
+//}
 
 
 fun findMax(a: Int, b: Int): Int{
