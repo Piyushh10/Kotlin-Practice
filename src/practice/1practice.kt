@@ -47,6 +47,15 @@ fun <T> printThat(item : T){
 
 fun maxOf(a: Int, b: Int) = if(a > b) a else b
 
+fun getStringLength(obj : Any): Int?{
+    if(obj is String)
+        return obj.length
+    return null
+}
+
+
+
+
 fun main(){
     println(sum(60,9))
     println(sum2(60,9))
