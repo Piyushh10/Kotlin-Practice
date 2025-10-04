@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <option name="DEFAULT_COMPILER" value="JAVAC" />
     <bytecodeTargetLevel target="11" />
-    <option name="KOTLIN_COMPILER_ADDITIONAL_ARGUMENTS" value="-Xdisable-const-evaluation -Xno-optimize -Xuse-old-backend" />
-    <option name="KOTLIN_LANGUAGE_VERSION" value="2.2" />
-    <option name="KOTLIN_API_VERSION" value="2.2" />
   </component>
 </project>

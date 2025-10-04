@@ -9,7 +9,6 @@ import kotlinx.coroutines.runBlocking
 
 fun main()= runBlocking{
     val startTime = System.currentTimeMillis()
-    println(startTime)
     val job = launch(Dispatchers.Default){
         var nextPrimeTIme = startTime
         var i = 0
