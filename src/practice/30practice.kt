@@ -21,7 +21,7 @@ fun main() = runBlocking<Unit>{
 
 fun requestFlow(i: Int): Flow<String> = flow {
     emit("$i: First")
-    delay(500) // wait 500 ms
+    delay(500)
     emit("$i: Second")
 }
 
