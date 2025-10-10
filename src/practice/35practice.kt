@@ -20,6 +20,9 @@ the launchIn terminal operator comes in handy here. By replacing collect
 with launchIn(this), we can launch a collection of the flow in a
 separate coroutine, so that execution of further code immediately continues
 
+The required parameter to launchIn must specify a CoroutineScope in
+which the coroutine to collect the flow is launched.
+
 Then the OP will be-
 Done
 Event: 1
