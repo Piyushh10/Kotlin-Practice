@@ -10,7 +10,7 @@ fun main(){
     println(greetPaaji("Piyushinder", 20))
     println(greetKar("Piyush Shivnani"){name-> "Hello ajeeb function waale $name"})
 
-    val a = Person("abcd")
+    val a = Person("abcd", 31)
     a.introduce()
 
     val animalObj = Animal()
@@ -59,10 +59,11 @@ fun greetKar(name: String, anotherFunc: (String)->String): String{
 }
 
 //member function- a function inside a class
-class Person(val name: String){
+class Person(val name: String, i: Int){
     fun introduce(){
         println("Hello, my name is $name")
     }
+    var age = i
 }
 
 //overriding function
