@@ -21,4 +21,3 @@ fun List<Int>.customFilter(filterFunction: (Int)->(Boolean)) : List<Int>{
     }
     return list1
 }
-m
